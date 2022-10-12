@@ -1,0 +1,24 @@
+.title-container{
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f2f2f2;
+    padding: 10px 30px;
+    margin: 50px auto 0;
+    border-radius: 5px;
+    /*border-radius: 0px 100px 0px 100px;*/
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.title-container h3{
+    display: inline-block;
+    margin: 0;
+    font-size: medium;
+}
+.cat-link{
+    text-decoration: none;
+    color: greenyellow;
+    float: right;
+    border-bottom: 1px solid greenyellow;
+}
+.cat-link:hover{
+    border-color: #f2f2f2;
+}

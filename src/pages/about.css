@@ -1,0 +1,65 @@
+.hero-title{
+    position: relative;
+    top: 40px;
+    width: 85%;
+    text-align: center;
+    margin: 5% auto 0;
+    padding: 5px 10px;
+    background-color: black;
+    color: #f2f2f2;
+}
+.about-page-body-container{
+    position: relative;
+    top: 40px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 5% 0;
+}
+
+.futures-container{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.futures-container span{
+    margin: 10px;
+}
+.futures-container i{
+    color: #62e708;
+    margin-right: 5px;
+}
+
+.technologies-used{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.used-tech-item{
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.used-tech-item span{
+    text-align: center;
+}
+@media screen and (max-width:769px){
+    .futures-container{
+        width: 100%;
+    }   
+    .technologies-used{
+        width: 100%;
+        justify-content: center;
+    }
+}
